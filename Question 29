@@ -1,0 +1,9 @@
+# Input sentence
+text = input("Enter a sentence: ")
+
+# Count words
+words = text.split()
+count = len(words)
+
+# Output
+print("Number of words =", count)
