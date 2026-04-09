@@ -1,0 +1,11 @@
+# Input string
+text = input("Enter a string: ")
+
+# Convert to lowercase
+text = text.lower()
+
+# Check palindrome
+if text == text[::-1]:
+    print("Yes")
+else:
+    print("No")
