@@ -1,0 +1,8 @@
+# Input string
+text = input("Enter a string: ")
+
+# Remove spaces
+result = text.replace(" ", "")
+
+# Output
+print(result)
