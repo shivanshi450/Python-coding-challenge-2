@@ -1,0 +1,13 @@
+# Input
+text = input("Enter a string: ")
+ch = input("Enter a character to count: ")
+
+count = 0
+
+# Count occurrences
+for c in text:
+    if c == ch:
+        count += 1
+
+# Output
+print("Count =", count)
