@@ -1,0 +1,10 @@
+# Input list
+nums = [5, 8, 2]
+
+# Assume first element is max
+max_num = nums[0]
+
+# Find max
+for n in nums:
+    if n > max_num:
+        max_num = n
