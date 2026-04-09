@@ -1,0 +1,6 @@
+# Input list
+nums = [1, 1, 2, 3, 3]
+
+# Count unique elements
+unique_count = len(set(nums))
+
