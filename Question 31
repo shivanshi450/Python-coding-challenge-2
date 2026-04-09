@@ -1,0 +1,10 @@
+# Input list
+nums = [1, 1, 2, 3]
+
+result = []
+
+# Remove duplicates
+for n in nums:
+    if n not in result:
+        result.append(n)
+
