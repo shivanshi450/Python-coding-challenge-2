@@ -1,0 +1,16 @@
+# Input string
+text = input("Enter a sentence: ")
+
+# Split into words
+words = text.split()
+
+# Assume first word is longest
+longest = words[0]
+
+# Find longest word
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+# Output
+print("Longest word =", longest)
