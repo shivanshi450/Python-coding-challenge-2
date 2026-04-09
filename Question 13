@@ -1,0 +1,11 @@
+# Input list
+nums = [10, 60, 30, 80]
+
+# Count
+count = 0
+for n in nums:
+    if n > 50:
+        count += 1
+
+# Output
+print("Count =", count)
