@@ -1,0 +1,14 @@
+# Input list
+nums = [10, 20, 5, 15]
+
+# Initialize
+largest = second = float('-inf')
+
+# Find largest and second largest
+for n in nums:
+    if n > largest:
+        second = largest
+        largest = n
+    elif n > second and n != largest:
+        second = n
+
