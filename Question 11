@@ -1,0 +1,8 @@
+# Input list
+sales = [100, 200, 150, 300, 250, 400, 100]
+
+# Calculate total
+total = sum(sales)
+
+# Output
+print("Total Weekly Sales =", total)
