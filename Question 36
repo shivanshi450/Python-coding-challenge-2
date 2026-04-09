@@ -1,0 +1,8 @@
+# Input list
+nums = [1, 2, 3]
+
+# Convert to tuple
+result = tuple(nums)
+
+# Output
+print(result)
