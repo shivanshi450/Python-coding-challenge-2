@@ -1,0 +1,14 @@
+# Input string
+text = input("Enter a string: ")
+
+result = ""
+
+# Replace vowels with *
+for ch in text:
+    if ch.lower() in ['a', 'e', 'i', 'o', 'u']:
+        result += "*"
+    else:
+        result += ch
+
+# Output
+print(result)
